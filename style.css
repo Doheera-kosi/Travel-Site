@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto+Slab:wght@300;400;500&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -16,7 +18,7 @@ html {
 }
 
 body {
-  font-family: 'poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background: #161813;
   overflow-x: hidden;
 }
@@ -88,7 +90,8 @@ body {
   z-index: -2;
 }
 
-.background::before , .background::after {
+.background::before,
+.background::after {
   content: '';
   position: absolute;
   left: 0;
@@ -121,7 +124,7 @@ body {
   height: 100%;
   background: #161813;
   opacity: 1;
-  transition: 5s;
+  transition: .5s;
   pointer-events: none;
 }
 
@@ -130,7 +133,7 @@ body {
 }
 
 .hero-section-title {
-  font-family: 'roboto slab' serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 300;
   font-size: 80px;
   text-align: center;
@@ -413,7 +416,7 @@ body {
   background: #fff;
   opacity: .2;
   transform: rotate(5deg);
-  transition: .5s;
+  transition: 1.2s;
 }
 
 .book-now:hover::before {
