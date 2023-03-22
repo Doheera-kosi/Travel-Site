@@ -21,6 +21,7 @@
 
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header>
     <nav class="navbar">
@@ -34,7 +35,7 @@
           </a>
         </li>
 
-        <li class="link-item"> <a href="#">Services</a> </li>
+        <li class="link-item"> <a href="#services">Services</a> </li>
         <li class="link-item"> <a href="#">Book Your Tour</a> </li>
       </ul>
     </nav>
@@ -54,16 +55,103 @@
         </div>
       </div>
 
-      <div class="hero-section-container">
+      <div class="hero-section-container" data-aos="fade-up">
         <h1 class="hero-section-title">Wonderful experience</h1>
         <p class="hero-section-sub-heading">Lorem ipsum, dolor sit Ducimus ip sint, modi placeat!</p>
       </div>
+
+      <img src="img/down arrow.png" alt="scroll down" class="scroll-down-icon">
     </main>
   </header>
 
-  <body>
-    
-  </body>
+  <section class="explore-section" id="explore-section">
+
+    <h1 class="section-title" data-aos="fade-up">Explore the world!</h1>
+    <p class="section-para" data-aos="fade-up">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad quae, voluptatum tempore sed quia atque at inventore asperiores repudiandae ducimus.</p>
+
+    <div class="tours-container">
+      <div class="tour-card" data-aos="fade-up">
+        <img src="img/australia.png" class="tour-img" alt="">
+        <div class="tour-body">
+          <div class="tour-name">Australia</div>
+          <p class="tour-action">view city</p>
+        </div>
+      </div>
+      <div class="tour-card" data-aos="fade-up">
+        <img src="img/maldives.png" class="tour-img" alt="">
+        <div class="tour-body">
+          <div class="tour-name">Maldives</div>
+          <p class="tour-action">view city</p>
+        </div>
+      </div>
+      <div class="tour-card" data-aos="fade-up">
+        <img src="img/paris.png" class="tour-img" alt="">
+        <div class="tour-body">
+          <div class="tour-name">Paris</div>
+          <p class="tour-action">view city</p>
+        </div>
+      </div>
+      <div class="tour-card" data-aos="fade-up">
+        <img src="img/dubai.png" class="tour-img" alt="">
+        <div class="tour-body">
+          <div class="tour-name">Dubai</div>
+          <p class="tour-action">view city</p>
+        </div>
+      </div>
+      <div class="tour-card" data-aos="fade-up">
+        <img src="img/india.png" class="tour-img" alt="">
+        <div class="tour-body">
+          <div class="tour-name">India</div>
+          <p class="tour-action">view city</p>
+        </div>
+      </div>
+      <div class="tour-card" data-aos="fade-up">
+        <img src="img/italy.png" class="tour-img" alt="">
+        <div class="tour-body">
+          <div class="tour-name">Rome</div>
+          <p class="tour-action">view city</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services-section" id="services">
+
+    <h1 class="section-title" data-aos="fade-up">Why Us?</h1>
+    <p class="section-para" data-aos="fade-up">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, unde voluptatum distinctio animi culpa commodi numquam necessitatibus nostrum porro dolorem.
+    </p>
+
+    <!-- services-grid -->
+    <div class="services-grid">
+      <div class="service-card" data-aos="fade-up">
+        <div class="circle"></div>
+        <i class="fa-solid fa-earth-america card-icon"></i>
+        <div class="service-text">We are based all over the world!!</div>
+      </div>
+      
+      <div class="service-card" data-aos="fade-up">
+        <div class="circle"></div>
+        <i class="fa-solid fa-coins card-icon"></i>
+        <div class="service-text">Travel the world, without thinkking</div>
+      </div>
+
+      <div class="service-card" data-aos="fade-up">
+        <div class="circle"></div>
+        <i class="fa-solid fa-book-open card-icon"></i>
+        <div class="service-text">Know diverse local culture</div>
+      </div>
+
+      <div class="service-card" data-aos="fade-up">
+        <div class="circle"></div>
+        <i class="fa-solid fa-person-snowboarding card-icon"></i>
+        <div class="service-text">Get the best of all experiences</div>
+      </div>
+
+    </div>
+
+  </section>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="app.js"></script>
