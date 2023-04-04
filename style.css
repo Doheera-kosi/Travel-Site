@@ -475,6 +475,12 @@ footer {
 }
 
 @media screen and (max-width: 996px){
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
   .link-item {
     margin: 0 10px;
   }
@@ -526,6 +532,11 @@ footer {
 /* smaller devices  */
 
 @media screen and (max-width: 798px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
   .navbar {
     height: auto;
   }
